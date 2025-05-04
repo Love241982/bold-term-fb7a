@@ -1,0 +1,16 @@
+{
+  "compatibility_date": "2025-04-01",
+  "main": "src/index.ts",
+  "name": "bold-term-fb7a",
+  "upload_source_maps": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "24b04181-988b-4d73-8f32-517b76942775",
+      "database_name": "broken-sea-9280-d1"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
