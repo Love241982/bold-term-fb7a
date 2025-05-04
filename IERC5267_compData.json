@@ -1,0 +1,85 @@
+{
+	"compilerInput": "{\"language\":\"Solidity\",\"sources\":{\".deps/npm/@openzeppelin/contracts/interfaces/IERC5267.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts (last updated v5.0.0) (interfaces/IERC5267.sol)\\n\\npragma solidity ^0.8.20;\\n\\ninterface IERC5267 {\\n    /**\\n     * @dev MAY be emitted to signal that the domain could have changed.\\n     */\\n    event EIP712DomainChanged();\\n\\n    /**\\n     * @dev returns the fields and values that describe the domain separator used by this contract for EIP-712\\n     * signature.\\n     */\\n    function eip712Domain()\\n        external\\n        view\\n        returns (\\n            bytes1 fields,\\n            string memory name,\\n            string memory version,\\n            uint256 chainId,\\n            address verifyingContract,\\n            bytes32 salt,\\n            uint256[] memory extensions\\n        );\\n}\\n\"}},\"settings\":{\"optimizer\":{\"enabled\":true,\"runs\":200},\"outputSelection\":{\"*\":{\"\":[\"ast\"],\"*\":[\"abi\",\"metadata\",\"devdoc\",\"userdoc\",\"storageLayout\",\"evm.legacyAssembly\",\"evm.bytecode\",\"evm.deployedBytecode\",\"evm.methodIdentifiers\",\"evm.gasEstimates\",\"evm.assembly\"]}},\"remappings\":[],\"evmVersion\":\"cancun\"}}",
+	"name": "IERC5267",
+	"metadata": "{\"compiler\":{\"version\":\"0.8.26+commit.8a97fa7a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[],\"name\":\"EIP712DomainChanged\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"eip712Domain\",\"outputs\":[{\"internalType\":\"bytes1\",\"name\":\"fields\",\"type\":\"bytes1\"},{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"version\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"chainId\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"verifyingContract\",\"type\":\"address\"},{\"internalType\":\"bytes32\",\"name\":\"salt\",\"type\":\"bytes32\"},{\"internalType\":\"uint256[]\",\"name\":\"extensions\",\"type\":\"uint256[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"events\":{\"EIP712DomainChanged()\":{\"details\":\"MAY be emitted to signal that the domain could have changed.\"}},\"kind\":\"dev\",\"methods\":{\"eip712Domain()\":{\"details\":\"returns the fields and values that describe the domain separator used by this contract for EIP-712 signature.\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\".deps/npm/@openzeppelin/contracts/interfaces/IERC5267.sol\":\"IERC5267\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\".deps/npm/@openzeppelin/contracts/interfaces/IERC5267.sol\":{\"keccak256\":\"0x92aa1df62dc3d33f1656d63bede0923e0df0b706ad4137c8b10b0a8fe549fd92\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c5c0f29195ad64cbe556da8e257dac8f05f78c53f90323c0d2accf8e6922d33a\",\"dweb:/ipfs/QmQ61TED8uaCZwcbh8KkgRSsCav7x7HbcGHwHts3U4DmUP\"]}},\"version\":1}",
+	"abi": [
+		{
+			"anonymous": false,
+			"inputs": [],
+			"name": "EIP712DomainChanged",
+			"type": "event"
+		},
+		{
+			"inputs": [],
+			"name": "eip712Domain",
+			"outputs": [
+				{
+					"internalType": "bytes1",
+					"name": "fields",
+					"type": "bytes1"
+				},
+				{
+					"internalType": "string",
+					"name": "name",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "version",
+					"type": "string"
+				},
+				{
+					"internalType": "uint256",
+					"name": "chainId",
+					"type": "uint256"
+				},
+				{
+					"internalType": "address",
+					"name": "verifyingContract",
+					"type": "address"
+				},
+				{
+					"internalType": "bytes32",
+					"name": "salt",
+					"type": "bytes32"
+				},
+				{
+					"internalType": "uint256[]",
+					"name": "extensions",
+					"type": "uint256[]"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		}
+	],
+	"storageLayout": {
+		"storage": [],
+		"types": null
+	},
+	"functionHashes": {
+		"84b0196e": "eip712Domain()"
+	},
+	"gasEstimates": {},
+	"devdoc": {
+		"events": {
+			"EIP712DomainChanged()": {
+				"details": "MAY be emitted to signal that the domain could have changed."
+			}
+		},
+		"kind": "dev",
+		"methods": {
+			"eip712Domain()": {
+				"details": "returns the fields and values that describe the domain separator used by this contract for EIP-712 signature."
+			}
+		},
+		"version": 1
+	},
+	"userdoc": {
+		"kind": "user",
+		"methods": {},
+		"version": 1
+	},
+	"Assembly": "\n",
+	"metadataHash": "776d780da60ea60df6b0082e59aa06d6af14b6f4c318a5d40b6ac94d0c0755ec"
+}
